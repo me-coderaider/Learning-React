@@ -46,4 +46,7 @@
     font: bold;
     font-size: 100px;
     background-color: aqua;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
