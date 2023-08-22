@@ -22,9 +22,14 @@ class Counter extends Component{
 
     render(){
         return (
-            <div>
-                <button className='button' onClick={this.clickCounter}>Click Here</button>
-                <span className='count'>{this.state.counter}</span>
+            <div className='mainbox'>
+                <div className='innerBox'>
+                    <div className='clickCounter'>Click Counter</div>
+                    <div>
+                        <button className='button' onClick={this.clickCounter}>Click Here</button>
+                        <div><span className='count'>{this.state.counter}</span></div>
+                    </div>
+                </div>
             </div>
         )
     }
