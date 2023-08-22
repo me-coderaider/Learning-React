@@ -4,7 +4,9 @@
     padding: 40px 40px;
     height: 90vh;
 
-  background-image: linear-gradient(to right,rgb(179, 226, 125), rgb(245, 81, 81));
+  /* background-image: linear-gradient(to right,rgb(179, 226, 125), rgb(245, 81, 81)); */
+  background-image: linear-gradient(to right,rgb(228, 177, 83), rgb(179, 226, 125));
+
 }
 .innerBox{
     background-color: black;
@@ -30,6 +32,7 @@
     background-color: black;
     color: white;
     /* border-color: rgb(240, 27, 27); */
+    border: 2px solid white;
 }
 .count{
     /* padding-left: 30px;
