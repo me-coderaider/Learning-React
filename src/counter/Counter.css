@@ -1,8 +1,10 @@
 .mainbox{
-    background-color: cornsilk;
+    background-color: rgb(148, 226, 141);
     /* margin: px; */
     padding: 40px 40px;
     height: 90vh;
+
+  background-image: linear-gradient(to right,rgb(179, 226, 125), rgb(245, 81, 81));
 }
 .innerBox{
     background-color: black;
@@ -15,30 +17,30 @@
     /* margin: 100px 100px 100px 100px; */
     /* padding-left: 30px;
     padding-right: 30px; */
+    margin-top: 30px;
     border: 0;
     width: 250px;
     height: 250px;
     color: rgb(11, 11, 12);
     background-color: grey;
-    
-
+    border-radius: 15px;
     font-size: 75px;
 }
 .button:hover{
-    background-color: blue;
+    background-color: black;
+    color: white;
+    /* border-color: rgb(240, 27, 27); */
 }
 .count{
     /* padding-left: 30px;
     padding-top: 30px; */
     /* padding: 30px 30px 30px 30px;
     border-top: 30px; */
-    font-size: 50px;
+    font-size: 100px;
     color: blueviolet;
 }
 .clickCounter{
     font: bold;
     font-size: 100px;
-    align-items: left;
     background-color: aqua;
-    border-radius: initial 10px;
 }
